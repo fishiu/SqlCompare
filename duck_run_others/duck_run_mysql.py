@@ -8,7 +8,7 @@ import duckdb
 mysql_conn_params = {
     'user': 'root',
     'password': "123456",
-    'host': 'localhost',
+    'host': 'mysql',
     'port': '3306',
     'database': 'test'
 }

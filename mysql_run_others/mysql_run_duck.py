@@ -7,7 +7,7 @@ import shutil
 def create_client():
     print("Connecting to MySQL database...")
     connection = mysql.connector.connect(
-        host="localhost",
+        host="mysql",
         user="root",
         password="123456",
         database="test"

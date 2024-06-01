@@ -82,7 +82,7 @@ CREATE TABLE onek (
 	string4		varchar
 );
 
-COPY onek FROM '/Users/leverest/repos/courses/ast/project/extract/postgresql/data/onek.data';
+COPY onek FROM './init/onek.data';
 VACUUM ANALYZE onek;
 
 CREATE TABLE onek2 AS SELECT * FROM onek;
@@ -107,22 +107,10 @@ CREATE TABLE tenk1 (
 	string4		varchar
 );
 
-COPY tenk1 FROM '/Users/leverest/repos/courses/ast/project/extract/postgresql/data/tenk.data';
+COPY tenk1 FROM './init/tenk.data';
 VACUUM ANALYZE tenk1;
 
 CREATE TABLE tenk2 AS SELECT * FROM tenk1;
 VACUUM ANALYZE tenk2;
 
---
--- We must have some enum type in the database for opr_sanity and type_sanity.
---
-
 create type stoplight as enum ('red', 'yellow', 'green');
-
---
--- Also create some non-built-in range types.
---
-
--- create type float8range as range (subtype = float8, subtype_diff = float8mi);
--- create type textrange as range (subtype = text, collation = "C");
-

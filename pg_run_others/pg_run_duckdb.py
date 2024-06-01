@@ -8,7 +8,7 @@ import duckdb
 conn_params = {
     'user': 'postgres',
     'password': '123456',
-    'host': 'localhost',
+    'host': 'postgres',
     'port': '5432',
 }
 

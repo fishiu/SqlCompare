@@ -14,8 +14,8 @@ testcase_ommit_set = {
 
 conn_params = {
     'user': 'postgres',
-    'password': 'jxy@1107',
-    'host': 'localhost',
+    'password': '123456',
+    'host': 'postgres',
     'port': '5432',
 }
 
@@ -54,7 +54,7 @@ def init_pg(cur):
         DROP SCHEMA IF EXISTS testxmlschema CASCADE;
     """)
 
-    exe_sql(cur, './test_setup_for_run.sql')
+    exe_sql(cur, './pg_init.sql')
 
 
 def init_pg_without_cur():
@@ -186,6 +186,6 @@ def clean_res():
 
 if __name__ == '__main__':
     # init_pg_without_cur()
-    # main()
+    main()
     # single_test()
     clean_res()

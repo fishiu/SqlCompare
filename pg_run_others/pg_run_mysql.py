@@ -2,18 +2,21 @@
 import pathlib
 import collections
 
-import clickhouse_driver
+import mysql.connector
 import psycopg2
 
-click_conn_params = {
-    'host': 'localhost',
-    'port': '19000',
+mysql_conn_params = {
+    'user': 'root',
+    'password': "123456",
+    'host': 'mysql',
+    'port': '3306',
+    'database': 'test'
 }
 
 pg_conn_params = {
     'user': 'postgres',
     'password': '123456',
-    'host': 'localhost',
+    'host': 'postgres',
     'port': '5432',
 }
 
@@ -56,10 +59,6 @@ class PgTestCase:
 
         # read query.sql
         self.query_sql = split_sql(self.test_case_dir / "test.sql")
-        # assert len(self.query_sql) == 1
-        if len(self.query_sql) > 1:
-            print(f"Multiple queries found in {self.test_case_dir}")
-        self.query_sql = self.query_sql[0]
 
     def init_pg(self):
         self.cur.execute("SELECT tablename FROM pg_catalog.pg_tables WHERE schemaname='public';")
@@ -77,10 +76,13 @@ class PgTestCase:
     def execute_db(self):
         self.init_pg()
         for db_sql in self.db_sql:
+            # lower_sql = db_sql.lower()
+            # if "sql_mode" in lower_sql or "sql_warnings" in lower_sql:
+            #     continue
             self.cur.execute(db_sql)
 
     def execute_query(self):
-        self.cur.execute(self.query_sql)
+        self.cur.execute(self.query_sql[0])
         return self.cur.fetchall()
 
     # destructor
@@ -89,9 +91,11 @@ class PgTestCase:
         self.conn.close()
 
 
-class ClickTestCase:
+class MysqlTestCase:
     def __init__(self, test_case_dir):
-        # self.client = clickhouse_driver.Client(**click_conn_params)
+        # self.conn = mysql.connector.connect(**mysql_conn_params)
+        # self.conn.autocommit = True
+        # self.cur = self.conn.cursor()
 
         self.db_sql = []
         self.query_sql = []
@@ -105,35 +109,40 @@ class ClickTestCase:
         # read query.sql
         self.query_sql = split_sql(self.test_case_dir / "test.sql")
 
-        with open(self.test_case_dir / "result.txt", 'r') as file:
-            self.result = file.read().strip()
+        with open(self.test_case_dir / "result.txt", 'r') as f:
+            self.result = f.read().strip()
 
-    # def init_db(self):
-    #     tables = self.client.execute("SHOW TABLES;")
+    # def init_mysql(self):
+    #     self.cur.execute("SHOW TABLES")
+    #     tables = self.cur.fetchall()
     #     for table in tables:
-    #         self.client.execute(f"DROP TABLE IF EXISTS {table[0]};")
-    #     # print(tables)
+    #         self.cur.execute(f"DROP TABLE IF EXISTS {table[0]}")
     #
     # def execute_db(self):
-    #     # first init
-    #     self.init_db()
+    #     self.init_mysql()
     #     for db_sql in self.db_sql:
-    #         self.client.execute(db_sql)
+    #         self.cur.execute(db_sql)
+    #         self.cur.fetchall()
     #
     # def execute_query(self):
     #     result = []
     #     for query_sql in self.query_sql:
-    #         res = self.client.execute(query_sql)
-    #         result.append(res)
+    #         self.cur.execute(query_sql)
+    #         result.append(self.cur.fetchall())
     #     return result
+    #
+    # # destructor
+    # def __del__(self):
+    #     self.cur.close()
+    #     self.conn.close()
 
 
 def main():
     res_counter = collections.Counter()
 
-    click_testcase_base_dir = pathlib.Path('../clickhouse/clickhouse_testcase/clickhouse')
+    mysql_testcase_base_dir = pathlib.Path('../mysql/mysql_testcase')
 
-    for testcase_dir in click_testcase_base_dir.glob("testcase*"):
+    for testcase_dir in mysql_testcase_base_dir.glob("testcase*"):
         print(f"\nProcessing {testcase_dir}")
 
         pg_test_case = PgTestCase(testcase_dir)
@@ -144,36 +153,33 @@ def main():
             pg_res = pg_test_case.execute_query()
         except Exception as e:
             pg_error = e
-            print(f"Pg error: {e}")
-        # pg_test_case.execute_db()
-        # pg_res_list = pg_test_case.execute_query()
+            print(f"pg error: {e}")
 
-        click_test_case = ClickTestCase(testcase_dir)
-        click_res = click_test_case.result
-        click_error = None
+        mysql_test_case = MysqlTestCase(testcase_dir)
+        mysql_res = mysql_test_case.result
+        mysql_error = None
         # try:
-        #     click_test_case.execute_db()
-        #     click_res = click_test_case.execute_query()
+        #     mysql_test_case.execute_db()
+        #     mysql_res = mysql_test_case.execute_query()
         # except Exception as e:
-        #     click_error = e
-        #     print(f"Click error: {e}")
+        #     mysql_error = e
+        #     print(f"mysql error: {e}")
 
-        if pg_error is None and click_error is None:
-            if str(pg_res).strip() == click_res:
+        if pg_error is None and mysql_error is None:
+            if str(pg_res).strip() == mysql_res:
                 res_counter['same'] += 1
                 print(f"[RESULT] same")
             else:
                 res_counter['different'] += 1
                 print(f"[RESULT] different")
                 print(f"pg: {pg_res}")
-                print(f"click: {click_res}")
+                print(f"mysql: {mysql_res}")
         else:
             res_counter['error'] += 1
-            print(f"[RESULT] error, pg {pg_error is None}, click {click_error is None}")
+            print(f"[RESULT] error, pg {pg_error is None}, mysql {mysql_error is None}")
 
         # break
-
-    with open('../stats/pg_run_click.stat', 'w') as f:
+    with open('../stats/pg_run_mysql.stat', 'w') as f:
         f.write(str(res_counter['error']) + '\n')
         f.write(str(res_counter['same']) + '\n')
         f.write(str(res_counter['different']) + '\n')

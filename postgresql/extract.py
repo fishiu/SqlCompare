@@ -3,7 +3,7 @@ import shutil
 from enum import Enum
 
 
-src_base_dir = pathlib.Path('../../postgres/src/test/regress/sql')
+src_base_dir = pathlib.Path('../source_code/postgres/src/test/regress/sql')
 testcase_base_dir = pathlib.Path('./testcase_data')
 
 omit_set = {

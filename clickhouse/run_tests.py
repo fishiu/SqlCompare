@@ -4,7 +4,7 @@ import re
 
 def create_client():
     print("connect...")
-    host = '127.0.0.1'  
+    host = 'clickhouse'  
     user = 'default' 
     password = '' 
     database = 'test'  

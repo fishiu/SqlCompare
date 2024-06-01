@@ -10,7 +10,7 @@ services:
       - mysql
       - clickhouse
     volumes:
-      - ../:/sql_project
+      - ./:/sql_project
     command: ["tail", "-f", "/dev/null"]
 
   postgres:

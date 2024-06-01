@@ -7,8 +7,8 @@ import duckdb
 
 conn_params = {
     'host': 'localhost',
-    'port': '19000',
-    'user': 'default',
+    'port': '9000',
+    'user': 'clickhouse',
     'password': '',
     'database': 'test'
 }
