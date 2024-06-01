@@ -25,4 +25,6 @@ docker-compose up -d
 docker exec -it xy-python-container /bin/bash
 ```
 
+For MySQL and ClickHouse, unzip the test suites in corresponding folders first.
+
 After that, enter the main docker and run the four `*/extract.py` and `*/run_test.py` mentioned above to extract and execute. Then run the 12 `*_run_*.py` to compare and analysis.
