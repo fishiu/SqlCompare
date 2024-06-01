@@ -1,0 +1,4 @@
+mysql-connector-python
+clickhouse-driver
+psycopg2-binary
+duckdb

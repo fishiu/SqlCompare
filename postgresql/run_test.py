@@ -1,4 +1,6 @@
 import pathlib
+import shutil
+
 import psycopg2
 
 ommit_set = {
@@ -49,7 +51,6 @@ def init_pg(cur):
         CREATE SCHEMA public;
         GRANT ALL ON SCHEMA public TO public;
 
-        DROP SCHEMA IF EXISTS information_schema CASCADE;
         DROP SCHEMA IF EXISTS testxmlschema CASCADE;
     """)
 
@@ -80,7 +81,7 @@ class TestCase:
             self.db_sql = "".join(f.readlines())
 
         # read query.sql
-        with open(self.test_case_dir / "query.sql", 'r') as f:
+        with open(self.test_case_dir / "test.sql", 'r') as f:
             # for line in f:
             #     self.query_sql.append(line.strip())
             self.query_sql = "".join(f.readlines())
@@ -102,12 +103,12 @@ class TestCase:
         # for line in self.query_sql:
         #     print(cursor.execute(line).fetchall())
         cursor.execute(self.query_sql)
-        print(cursor.fetchall())
+        res = cursor.fetchall()
+        print(res)
 
-        # print("----result----")
-        # for line in self.result:
-        #     print(line)
-        # print(self.result)
+        # save result
+        with open(self.test_case_dir / "result.txt", 'w') as f:
+            f.write(str(res) + '\n')
 
 
 def main():
@@ -162,7 +163,29 @@ def single_test():
         conn.close()
 
 
+def clean_res():
+    suc_set = set()
+    with open('pass.txt', 'r') as f:
+        suc_set.update([line.strip() for line in f.readlines()])
+
+    target_dir = pathlib.Path('./pg_testcase_data')
+    if target_dir.exists():
+        shutil.rmtree(target_dir)
+    target_dir.mkdir()
+
+    cnt = 0
+    for suc in suc_set:
+        src = pathlib.Path(f'./testcase_data/{suc}')
+        target = pathlib.Path(f'./pg_testcase_data/{suc}')
+        if not target.parent.exists():
+            target.parent.mkdir(parents=True)
+        shutil.copytree(src, target)
+        cnt += 1
+    print(f"Copy {cnt} dirs")
+
+
 if __name__ == '__main__':
     # init_pg_without_cur()
-    main()
+    # main()
     # single_test()
+    clean_res()

@@ -132,7 +132,7 @@ class TestCase:
             for line in self.db_sql:
                 f.write(line + "\n")
         # query.sql
-        with open(self.test_case_directory / "query.sql", 'w') as f:
+        with open(self.test_case_directory / "test.sql", 'w') as f:
             for line in self.query_sql:
                 f.write(line + "\n")
         # result.txt

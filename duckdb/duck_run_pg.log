@@ -1,0 +1,2733 @@
+
+Processing create_misc.sql/9
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing create_misc.sql/0
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing create_misc.sql/11
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing create_misc.sql/7
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing create_misc.sql/6
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing create_misc.sql/1
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing create_misc.sql/10
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing create_misc.sql/8
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing create_misc.sql/4
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing create_misc.sql/3
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing create_misc.sql/12
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing create_misc.sql/2
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing create_misc.sql/13
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing create_misc.sql/5
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing init_privs.sql/0
+duckdb: Catalog Error: Table with name pg_init_privs does not exist!
+Did you mean "pg_proc"?
+LINE 1: SELECT count(*) > 0 FROM pg_init_privs;
+                                 ^
+[RESULT] error, duck False, pg True
+
+Processing misc_sanity.sql/0
+[RESULT] same
+
+Processing misc_sanity.sql/1
+duckdb: Catalog Error: Table with name pg_shdepend does not exist!
+Did you mean "pg_depend"?
+LINE 2: FROM pg_shdepend as d1
+             ^
+[RESULT] error, duck False, pg True
+
+Processing misc_sanity.sql/4
+duckdb: Catalog Error: Type with name regnamespace does not exist!
+Did you mean "enum"?
+[RESULT] error, duck False, pg True
+
+Processing misc_sanity.sql/3
+duckdb: Catalog Error: Type with name regnamespace does not exist!
+Did you mean "enum"?
+[RESULT] error, duck False, pg True
+
+Processing misc_sanity.sql/2
+duckdb: Catalog Error: Type with name regtype does not exist!
+Did you mean "date"?
+[RESULT] error, duck False, pg True
+
+Processing amutils.sql/6
+duckdb: Parser Error: syntax error at or near "INCLUDE"
+[RESULT] error, duck False, pg True
+
+Processing amutils.sql/4
+duckdb: Not implemented Error: WITH ORDINALITY not implemented
+[RESULT] error, duck False, pg True
+
+Processing amutils.sql/5
+duckdb: Catalog Error: Type with name regclass does not exist!
+Did you mean "real"?
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/20
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/18
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/27
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/9
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/0
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/11
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/7
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/16
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/6
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/17
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/1
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/10
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/19
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/26
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/8
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/21
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/24
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/23
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/4
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/15
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/3
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/12
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/2
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/13
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/5
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/14
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/22
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing xmlmap.sql/25
+duckdb: Parser Error: syntax error at or near "DOMAIN"
+[RESULT] error, duck False, pg True
+
+Processing functional_deps.sql/0
+duckdb: Binder Error: column "keywords" must appear in the GROUP BY clause or must be part of an aggregate function.
+Either add it to the GROUP BY list, or use "ANY_VALUE(keywords)" if the exact value of "keywords" is not important.
+LINE 1: SELECT id, keywords, title, body, created
+                   ^
+[RESULT] error, duck False, pg True
+
+Processing functional_deps.sql/6
+duckdb: Binder Error: column "keywords" must appear in the GROUP BY clause or must be part of an aggregate function.
+Either add it to the GROUP BY list, or use "ANY_VALUE(keywords)" if the exact value of "keywords" is not important.
+LINE 1: SELECT a.id, a.keywords, a.title, a.body, a.created
+                     ^
+[RESULT] error, duck False, pg True
+
+Processing functional_deps.sql/10
+[RESULT] same
+
+Processing functional_deps.sql/8
+duckdb: Binder Error: column "changed" must appear in the GROUP BY clause or must be part of an aggregate function.
+Either add it to the GROUP BY list, or use "ANY_VALUE(changed)" if the exact value of "changed" is not important.
+LINE 1: SELECT aic.changed
+               ^
+[RESULT] error, duck False, pg True
+
+Processing functional_deps.sql/4
+duckdb: Binder Error: column "keywords" must appear in the GROUP BY clause or must be part of an aggregate function.
+Either add it to the GROUP BY list, or use "ANY_VALUE(keywords)" if the exact value of "keywords" is not important.
+LINE 1: SELECT a.id, a.keywords, a.title, a.body, a.created
+                     ^
+[RESULT] error, duck False, pg True
+
+Processing functional_deps.sql/12
+duckdb: Not implemented Error: No support for that ALTER TABLE option yet!
+[RESULT] error, duck False, pg True
+
+Processing functional_deps.sql/13
+duckdb: Not implemented Error: No support for that ALTER TABLE option yet!
+[RESULT] error, duck False, pg True
+
+Processing functional_deps.sql/14
+duckdb: Not implemented Error: No support for that ALTER TABLE option yet!
+[RESULT] error, duck False, pg True
+
+Processing geometry.sql/69
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing geometry.sql/9
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing geometry.sql/11
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing geometry.sql/7
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing geometry.sql/6
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing geometry.sql/10
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing geometry.sql/8
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing geometry.sql/12
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing geometry.sql/114
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing geometry.sql/5
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing geometry.sql/14
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing geometry.sql/22
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing tid.sql/0
+duckdb: Catalog Error: Type with name tid does not exist!
+Did you mean "oid"?
+[RESULT] error, duck False, pg True
+
+Processing tid.sql/6
+duckdb: Binder Error: Referenced column "ctid" not found in FROM clause!
+Candidate bindings: "tid_tab.a"
+LINE 1: SELECT max(ctid) FROM tid_tab;
+                   ^
+[RESULT] error, duck False, pg True
+
+Processing tid.sql/4
+duckdb: Catalog Error: Table Function with name pg_input_error_info does not exist!
+Did you mean "pragma_storage_info"?
+LINE 1: SELECT * FROM pg_input_error_info('(0,-1)', 'tid');
+                      ^
+[RESULT] error, duck False, pg True
+
+Processing tid.sql/3
+duckdb: Catalog Error: Scalar Function with name pg_input_is_valid does not exist!
+Did you mean "json_valid"?
+LINE 1: SELECT pg_input_is_valid('(0,-1)', 'tid');
+               ^
+[RESULT] error, duck False, pg True
+
+Processing tid.sql/2
+duckdb: Catalog Error: Table Function with name pg_input_error_info does not exist!
+Did you mean "pragma_storage_info"?
+LINE 1: SELECT * FROM pg_input_error_info('(0)', 'tid');
+                      ^
+[RESULT] error, duck False, pg True
+
+Processing tid.sql/5
+duckdb: Binder Error: Referenced column "ctid" not found in FROM clause!
+Candidate bindings: "tid_tab.a"
+LINE 1: SELECT min(ctid) FROM tid_tab;
+                   ^
+[RESULT] error, duck False, pg True
+
+Processing dbsize.sql/0
+[RESULT] different
+duck: [(10, '10 bytes', '-10 bytes'), (1000, '1000 bytes', '-1000 bytes'), (1000000, '976.5 KiB', '-976.5 KiB'), (1000000000, '953.6 MiB', '-953.6 MiB'), (1000000000000, '931.3 GiB', '-931.3 GiB'), (1000000000000000, '909.4 TiB', '-909.4 TiB')]
+pg: [(10, '10 bytes', '-10 bytes'), (1000, '1000 bytes', '-1000 bytes'), (1000000, '977 kB', '-977 kB'), (1000000000, '954 MB', '-954 MB'), (1000000000000, '931 GB', '-931 GB'), (1000000000000000, '909 TB', '-909 TB')]
+
+Processing dbsize.sql/7
+duckdb: Catalog Error: Scalar Function with name pg_size_bytes does not exist!
+Did you mean "pg_size_pretty"?
+LINE 1: SELECT size, pg_size_bytes(size) FROM
+                     ^
+[RESULT] error, duck False, pg True
+
+Processing dbsize.sql/6
+duckdb: Catalog Error: Scalar Function with name pg_size_bytes does not exist!
+Did you mean "pg_size_pretty"?
+LINE 1: SELECT size, pg_size_bytes(size) FROM
+                     ^
+[RESULT] error, duck False, pg True
+
+Processing dbsize.sql/1
+duckdb: Binder Error: No function matches the given name and argument types 'format_bytes(DECIMAL(18,3))'. You might need to add explicit type casts.
+	Candidate functions:
+	format_bytes(BIGINT) -> VARCHAR
+
+LINE 1: SELECT size, pg_size_pretty(size), pg_size_pre...
+               ^
+[RESULT] error, duck False, pg True
+
+Processing dbsize.sql/4
+duckdb: Catalog Error: Scalar Function with name pg_size_bytes does not exist!
+Did you mean "pg_size_pretty"?
+LINE 1: SELECT size, pg_size_bytes(size) FROM
+                     ^
+[RESULT] error, duck False, pg True
+
+Processing dbsize.sql/3
+duckdb: Binder Error: No function matches the given name and argument types 'format_bytes(DECIMAL(18,3))'. You might need to add explicit type casts.
+	Candidate functions:
+	format_bytes(BIGINT) -> VARCHAR
+
+LINE 1: SELECT size, pg_size_pretty(size), pg_size_pre...
+               ^
+[RESULT] error, duck False, pg True
+
+Processing dbsize.sql/2
+[RESULT] different
+duck: [(10239, '9.9 KiB', '-9.9 KiB'), (10240, '10.0 KiB', '-10.0 KiB'), (10485247, '9.9 MiB', '-9.9 MiB'), (10485248, '9.9 MiB', '-9.9 MiB'), (10736893951, '9.9 GiB', '-9.9 GiB'), (10736893952, '9.9 GiB', '-9.9 GiB'), (10994579406847, '9.9 TiB', '-9.9 TiB'), (10994579406848, '9.9 TiB', '-9.9 TiB'), (11258449312612351, '9.9 PiB', '-9.9 PiB'), (11258449312612352, '9.9 PiB', '-9.9 PiB')]
+pg: [(10239, '10239 bytes', '-10239 bytes'), (10240, '10 kB', '-10 kB'), (10485247, '10239 kB', '-10239 kB'), (10485248, '10 MB', '-10 MB'), (10736893951, '10239 MB', '-10239 MB'), (10736893952, '10 GB', '-10 GB'), (10994579406847, '10239 GB', '-10239 GB'), (10994579406848, '10 TB', '-10 TB'), (11258449312612351, '10239 TB', '-10239 TB'), (11258449312612352, '10 PB', '-10 PB')]
+
+Processing dbsize.sql/5
+duckdb: Catalog Error: Scalar Function with name pg_size_bytes does not exist!
+Did you mean "pg_size_pretty"?
+LINE 1: SELECT size, pg_size_bytes(size) FROM
+                     ^
+[RESULT] error, duck False, pg True
+
+Processing md5.sql/9
+duckdb: Binder Error: No function matches the given name and argument types 'md5(BLOB)'. You might need to add explicit type casts.
+	Candidate functions:
+	md5(VARCHAR) -> VARCHAR
+
+LINE 1: select md5('abc'::bytea) = '900150983cd24fb0d6...
+               ^
+[RESULT] error, duck False, pg True
+
+Processing md5.sql/0
+[RESULT] same
+
+Processing md5.sql/11
+duckdb: Binder Error: No function matches the given name and argument types 'md5(BLOB)'. You might need to add explicit type casts.
+	Candidate functions:
+	md5(VARCHAR) -> VARCHAR
+
+LINE 1: select md5('abcdefghijklmnopqrstuvwxyz'::bytea...
+               ^
+[RESULT] error, duck False, pg True
+
+Processing md5.sql/7
+duckdb: Binder Error: No function matches the given name and argument types 'md5(BLOB)'. You might need to add explicit type casts.
+	Candidate functions:
+	md5(VARCHAR) -> VARCHAR
+
+LINE 1: select md5(''::bytea) = 'd41d8cd98f00b204e9800...
+               ^
+[RESULT] error, duck False, pg True
+
+Processing md5.sql/6
+[RESULT] same
+
+Processing md5.sql/1
+[RESULT] same
+
+Processing md5.sql/10
+duckdb: Binder Error: No function matches the given name and argument types 'md5(BLOB)'. You might need to add explicit type casts.
+	Candidate functions:
+	md5(VARCHAR) -> VARCHAR
+
+LINE 1: select md5('message digest'::bytea) = 'f96b697...
+               ^
+[RESULT] error, duck False, pg True
+
+Processing md5.sql/8
+duckdb: Binder Error: No function matches the given name and argument types 'md5(BLOB)'. You might need to add explicit type casts.
+	Candidate functions:
+	md5(VARCHAR) -> VARCHAR
+
+LINE 1: select md5('a'::bytea) = '0cc175b9c0f1b6a831c3...
+               ^
+[RESULT] error, duck False, pg True
+
+Processing md5.sql/4
+[RESULT] same
+
+Processing md5.sql/3
+[RESULT] same
+
+Processing md5.sql/12
+duckdb: Binder Error: No function matches the given name and argument types 'md5(BLOB)'. You might need to add explicit type casts.
+	Candidate functions:
+	md5(VARCHAR) -> VARCHAR
+
+LINE 1: select md5('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefgh...
+               ^
+[RESULT] error, duck False, pg True
+
+Processing md5.sql/2
+[RESULT] same
+
+Processing md5.sql/13
+duckdb: Binder Error: No function matches the given name and argument types 'md5(BLOB)'. You might need to add explicit type casts.
+	Candidate functions:
+	md5(VARCHAR) -> VARCHAR
+
+LINE 1: select md5('1234567890123456789012345678901234...
+               ^
+[RESULT] error, duck False, pg True
+
+Processing md5.sql/5
+[RESULT] same
+
+Processing select_distinct_on.sql/0
+duckdb: Not implemented Error: Unimplemented order by type
+[RESULT] error, duck False, pg True
+
+Processing select_distinct_on.sql/4
+duckdb: Not implemented Error: Unimplemented explain type: COSTS
+[RESULT] error, duck False, pg True
+
+Processing select_distinct_on.sql/3
+[RESULT] same
+
+Processing select_distinct_on.sql/2
+duckdb: Not implemented Error: Unimplemented order by type
+[RESULT] error, duck False, pg True
+
+Processing drop_operator.sql/0
+duckdb: Parser Error: syntax error at or near "OPERATOR"
+[RESULT] error, duck False, pg True
+
+Processing drop_operator.sql/1
+duckdb: Parser Error: syntax error at or near "OPERATOR"
+[RESULT] error, duck False, pg True
+
+Processing drop_operator.sql/3
+duckdb: Parser Error: syntax error at or near "OPERATOR"
+[RESULT] error, duck False, pg True
+
+Processing drop_operator.sql/2
+duckdb: Parser Error: syntax error at or near "OPERATOR"
+[RESULT] error, duck False, pg True
+
+Processing sanity_check.sql/0
+[RESULT] same
+
+Processing sanity_check.sql/1
+[RESULT] same
+
+Processing create_index_spgist.sql/61
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/95
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/59
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/92
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/66
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/50
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/68
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/57
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/32
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/35
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/69
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/56
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/51
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/58
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/67
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/93
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/94
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/60
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/34
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/33
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/20
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/18
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/27
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/9
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/0
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/11
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/7
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/29
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/16
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/42
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/89
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/45
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/73
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/87
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/80
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/74
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/6
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/28
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/17
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/1
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/10
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/19
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/26
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/8
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/21
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/75
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/81
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/86
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/72
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/44
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/43
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/88
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/38
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/36
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/31
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/91
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/65
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/62
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/54
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/53
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/30
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/37
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/39
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/52
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/55
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/63
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/64
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/90
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/46
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/79
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/41
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/83
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/77
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/48
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/70
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/84
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/24
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/23
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/4
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/15
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/3
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/12
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/85
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/71
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/76
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/82
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/49
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/40
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/47
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/78
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/2
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/13
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/5
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/14
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/22
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing create_index_spgist.sql/25
+duckdb: Parser Error: syntax error at or near "ON"
+[RESULT] error, duck False, pg True
+
+Processing hash_part.sql/18
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing hash_part.sql/11
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing hash_part.sql/7
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing hash_part.sql/6
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing hash_part.sql/15
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing hash_part.sql/12
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing hash_part.sql/14
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing select_having.sql/9
+[RESULT] different
+duck: [(1,), (1,), (1,), (1,), (1,), (1,), (1,), (1,), (1,), (1,)]
+pg: [(1,)]
+
+Processing select_having.sql/0
+[RESULT] different
+duck: [(1, 'XXXX'), (3, 'bbbb')]
+pg: [(1, 'XXXX    '), (3, 'bbbb    ')]
+
+Processing select_having.sql/1
+[RESULT] different
+duck: [(3, 'BBBB'), (3, 'bbbb')]
+pg: [(3, 'bbbb    '), (3, 'BBBB    ')]
+
+Processing select_having.sql/10
+[RESULT] same
+
+Processing select_having.sql/8
+[RESULT] same
+
+Processing select_having.sql/4
+[RESULT] same
+
+Processing select_having.sql/3
+[RESULT] different
+duck: [('XXXX', 0), ('bbbb', 5)]
+pg: [('bbbb    ', 5), ('XXXX    ', 0)]
+
+Processing select_having.sql/2
+[RESULT] same
+
+Processing select_having.sql/5
+[RESULT] same
+
+Processing select_implicit.sql/20
+[RESULT] different
+duck: [(1,), (2,), (3,), (4,)]
+pg: [(1,), (5,), (4,)]
+
+Processing select_implicit.sql/18
+[RESULT] same
+
+Processing select_implicit.sql/27
+[RESULT] different
+duck: [(1,), (2,), (3,), (4,)]
+pg: [(1,), (5,), (4,)]
+
+Processing select_implicit.sql/0
+[RESULT] different
+duck: [('ABAB', 2), ('BBBB', 2), ('CCCC', 2), ('XXXX', 1), ('bbbb', 1), ('cccc', 2)]
+pg: [('ABAB    ', 2), ('bbbb    ', 1), ('BBBB    ', 2), ('cccc    ', 2), ('CCCC    ', 2), ('XXXX    ', 1)]
+
+Processing select_implicit.sql/11
+[RESULT] same
+
+Processing select_implicit.sql/7
+[RESULT] same
+
+Processing select_implicit.sql/16
+[RESULT] same
+
+Processing select_implicit.sql/6
+[RESULT] same
+
+Processing select_implicit.sql/17
+[RESULT] same
+
+Processing select_implicit.sql/1
+[RESULT] different
+duck: [(2,), (2,), (2,), (1,), (1,), (2,)]
+pg: [(2,), (1,), (2,), (2,), (2,), (1,)]
+
+Processing select_implicit.sql/8
+[RESULT] different
+duck: [('ABAB', 2), ('BBBB', 2), ('CCCC', 2), ('XXXX', 1), ('bbbb', 1), ('cccc', 2)]
+pg: [('ABAB    ', 2), ('bbbb    ', 1), ('BBBB    ', 2), ('cccc    ', 2), ('CCCC    ', 2), ('XXXX    ', 1)]
+
+Processing select_implicit.sql/21
+[RESULT] same
+
+Processing select_implicit.sql/23
+[RESULT] different
+duck: [(4,), (3,), (2,), (1,)]
+pg: [(7,), (3,)]
+
+Processing select_implicit.sql/4
+[RESULT] same
+
+Processing select_implicit.sql/15
+[RESULT] same
+
+Processing select_implicit.sql/3
+[RESULT] same
+
+Processing select_implicit.sql/12
+[RESULT] different
+duck: [(0.0, 0.0), (0.5, 0.5), (1.0, 1.0), (1.5, 1.5), (2.0, 2.0), (2.5, 2.5), (3.0, 3.0), (3.5, 3.5), (4.0, 4.0), (4.5, 4.5)]
+pg: [(0, 0), (0, 0), (1, 1), (1, 1), (2, 2), (2, 2), (3, 3), (3, 3), (4, 4), (4, 4)]
+
+Processing select_implicit.sql/13
+[RESULT] different
+duck: [(0.0, 0.0), (0.5, 0.5), (1.0, 1.0), (1.5, 1.5), (2.0, 2.0), (2.5, 2.5), (3.0, 3.0), (3.5, 3.5), (4.0, 4.0), (4.5, 4.5)]
+pg: [(0, 0), (1, 1), (2, 2), (3, 3), (4, 4)]
+
+Processing select_implicit.sql/5
+[RESULT] different
+duck: [('XXXX',), ('ABAB',), ('ABAB',), ('BBBB',), ('BBBB',), ('bbbb',), ('cccc',), ('cccc',), ('CCCC',), ('CCCC',)]
+pg: [('XXXX    ',), ('ABAB    ',), ('ABAB    ',), ('BBBB    ',), ('BBBB    ',), ('bbbb    ',), ('cccc    ',), ('cccc    ',), ('CCCC    ',), ('CCCC    ',)]
+
+Processing select_implicit.sql/14
+[RESULT] same
+
+Processing select_implicit.sql/22
+[RESULT] same
+
+Processing select_implicit.sql/25
+[RESULT] different
+duck: [(0.5, 1), (1.0, 2), (1.5, 3), (2.0, 4)]
+pg: [(0, 1), (1, 5), (2, 4)]
+
+Processing partition_info.sql/32
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/35
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/34
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/33
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/20
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/18
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/27
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/9
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/0
+duckdb: Catalog Error: Table Function with name pg_partition_tree does not exist!
+Did you mean "pg_timezone_names"?
+LINE 1: SELECT * FROM pg_partition_tree(NULL);
+                      ^
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/11
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/7
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/29
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/16
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/42
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/6
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/28
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/17
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/1
+duckdb: Catalog Error: Table Function with name pg_partition_tree does not exist!
+Did you mean "pg_timezone_names"?
+LINE 1: SELECT * FROM pg_partition_tree(0);
+                      ^
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/10
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/19
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/26
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/8
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/21
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/38
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/36
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/31
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/30
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/37
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/39
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/41
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/24
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/23
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/4
+duckdb: Catalog Error: Scalar Function with name pg_partition_root does not exist!
+Did you mean "position"?
+LINE 1: SELECT pg_partition_root(NULL);
+               ^
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/15
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/3
+duckdb: Catalog Error: Table Function with name pg_partition_ancestors does not exist!
+Did you mean "pg_timezone_names"?
+LINE 1: SELECT * FROM pg_partition_ancestors(0);
+                      ^
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/12
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/40
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/2
+duckdb: Catalog Error: Table Function with name pg_partition_ancestors does not exist!
+Did you mean "pg_timezone_names"?
+LINE 1: SELECT * FROM pg_partition_ancestors(NULL);
+                      ^
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/13
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/5
+duckdb: Catalog Error: Scalar Function with name pg_partition_root does not exist!
+Did you mean "position"?
+LINE 1: SELECT pg_partition_root(0);
+               ^
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/14
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/22
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_info.sql/25
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/32
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/35
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/34
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/33
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/18
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/27
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/9
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/0
+[RESULT] different
+duck: [([1, 2, 3],)]
+pg: [(1,), (2,), (3,)]
+
+Processing tsrf.sql/11
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/7
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/29
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/16
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/6
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/28
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/17
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/1
+[RESULT] different
+duck: [([1, 2, 3], [3, 4, 5])]
+pg: [(1, 3), (2, 4), (3, 5)]
+
+Processing tsrf.sql/10
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/26
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/8
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/31
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/30
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/23
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/15
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/3
+duckdb: Binder Error: No function matches the given name and argument types 'generate_series(INTEGER_LITERAL, BIGINT[])'. You might need to add explicit type casts.
+	Candidate functions:
+	generate_series(BIGINT) -> BIGINT[]
+	generate_series(BIGINT, BIGINT) -> BIGINT[]
+	generate_series(BIGINT, BIGINT, BIGINT) -> BIGINT[]
+	generate_series(TIMESTAMP, TIMESTAMP, INTERVAL) -> TIMESTAMP[]
+	generate_series(TIMESTAMP WITH TIME ZONE, TIMESTAMP WITH TIME ZONE, INTERVAL) -> TIMESTAMP WITH TIME ZONE[]
+
+LINE 1: SELECT generate_series(1, generate_series(1, 3...
+               ^
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/12
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/2
+[RESULT] different
+duck: [([1, 2], [1, 2, 3, 4])]
+pg: [(1, 1), (2, 2), (None, 3), (None, 4)]
+
+Processing tsrf.sql/13
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/5
+duckdb: Binder Error: No function matches the given name and argument types 'generate_series(BIGINT[], BIGINT[])'. You might need to add explicit type casts.
+	Candidate functions:
+	generate_series(BIGINT) -> BIGINT[]
+	generate_series(BIGINT, BIGINT) -> BIGINT[]
+	generate_series(BIGINT, BIGINT, BIGINT) -> BIGINT[]
+	generate_series(TIMESTAMP, TIMESTAMP, INTERVAL) -> TIMESTAMP[]
+	generate_series(TIMESTAMP WITH TIME ZONE, TIMESTAMP WITH TIME ZONE, INTERVAL) -> TIMESTAMP WITH TIME ZONE[]
+
+LINE 1: SELECT generate_series(generate_series(1,3), g...
+               ^
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/14
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/22
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing tsrf.sql/25
+duckdb: Not implemented Error: Unimplemented explain type: verbose
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/32
+duckdb: Parser Error: syntax error at or near "("
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/35
+duckdb: Parser Error: syntax error at or near "("
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/34
+duckdb: Parser Error: syntax error at or near "("
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/33
+duckdb: Parser Error: syntax error at or near "("
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/20
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/18
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/27
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/9
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/0
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/11
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/7
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/29
+duckdb: Parser Error: syntax error at or near "("
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/6
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/28
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/1
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/10
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/19
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/26
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/8
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/21
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/36
+duckdb: Parser Error: syntax error at or near "("
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/24
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/23
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/4
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/15
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/3
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/12
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/2
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/13
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/5
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/14
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/22
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing hash_func.sql/25
+duckdb: Parser Error: Type BIT does not support any modifiers!
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/61
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/59
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/66
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/50
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/68
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/57
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/32
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/35
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/69
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/56
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/51
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/58
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/67
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/60
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/34
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/33
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/20
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/18
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/27
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/9
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/0
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/11
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/7
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/29
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/16
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/42
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/45
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/73
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/80
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/74
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/6
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/28
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/17
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/1
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/10
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/19
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/26
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/8
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/21
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/75
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/81
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/72
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/44
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/43
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/38
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/36
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/31
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/65
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/62
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/54
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/53
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/30
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/37
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/39
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/52
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/55
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/63
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/64
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/46
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/79
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/41
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/83
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/77
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/48
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/70
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/24
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/23
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/4
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/15
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/3
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/12
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/71
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/76
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/82
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/49
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/40
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/47
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/78
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/2
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/13
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/5
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/14
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/22
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_join.sql/25
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/61
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/59
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/50
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/57
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/32
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/35
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/56
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/51
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/58
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/60
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/34
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/33
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/20
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/18
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/27
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/9
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/0
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/11
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/7
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/29
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/16
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/42
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/45
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/6
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/28
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/17
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/1
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/10
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/19
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/26
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/8
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/21
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/44
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/43
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/38
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/36
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/31
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/62
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/54
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/53
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/30
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/37
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/39
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/52
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/55
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/63
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/64
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/46
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/41
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/48
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/24
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/23
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/4
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/15
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/3
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/12
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/49
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/40
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/47
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/2
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/13
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/5
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/14
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/22
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing tsdicts.sql/25
+duckdb: Parser Error: syntax error at or near "TEXT"
+[RESULT] error, duck False, pg True
+
+Processing numerology.sql/20
+[RESULT] different
+duck: [(0,)]
+pg: [(Decimal('9223372036854775808'),)]
+
+Processing numerology.sql/18
+[RESULT] different
+duck: [(0,)]
+pg: [(Decimal('9223372036854775808'),)]
+
+Processing numerology.sql/9
+[RESULT] different
+duck: [(0,)]
+pg: [(-2147483648,)]
+
+Processing numerology.sql/0
+[RESULT] different
+duck: [(0,)]
+pg: [(37,)]
+
+Processing numerology.sql/11
+[RESULT] different
+duck: [(0,)]
+pg: [(-2147483648,)]
+
+Processing numerology.sql/7
+[RESULT] different
+duck: [(0,)]
+pg: [(2147483647,)]
+
+Processing numerology.sql/16
+[RESULT] different
+duck: [(0,)]
+pg: [(Decimal('9223372036854775808'),)]
+
+Processing numerology.sql/6
+[RESULT] different
+duck: [(0,)]
+pg: [(2147483648,)]
+
+Processing numerology.sql/17
+[RESULT] different
+duck: [(0,)]
+pg: [(9223372036854775807,)]
+
+Processing numerology.sql/1
+[RESULT] different
+duck: [(0,)]
+pg: [(187,)]
+
+Processing numerology.sql/10
+[RESULT] different
+duck: [(0,)]
+pg: [(-2147483649,)]
+
+Processing numerology.sql/19
+[RESULT] different
+duck: [(0,)]
+pg: [(9223372036854775807,)]
+
+Processing numerology.sql/26
+[RESULT] different
+duck: [(0,)]
+pg: [(Decimal('-9223372036854775809'),)]
+
+Processing numerology.sql/8
+[RESULT] different
+duck: [(0,)]
+pg: [(2147483648,)]
+
+Processing numerology.sql/21
+[RESULT] different
+duck: [(0,)]
+pg: [(-9223372036854775808,)]
+
+Processing numerology.sql/24
+[RESULT] different
+duck: [(0,)]
+pg: [(Decimal('-9223372036854775809'),)]
+
+Processing numerology.sql/23
+[RESULT] different
+duck: [(0,)]
+pg: [(-9223372036854775808,)]
+
+Processing numerology.sql/4
+[RESULT] different
+duck: [(0,)]
+pg: [(2147483648,)]
+
+Processing numerology.sql/15
+[RESULT] different
+duck: [(0,)]
+pg: [(9223372036854775807,)]
+
+Processing numerology.sql/3
+[RESULT] different
+duck: [(0,)]
+pg: [(2147483647,)]
+
+Processing numerology.sql/12
+[RESULT] different
+duck: [(0,)]
+pg: [(-2147483649,)]
+
+Processing numerology.sql/2
+[RESULT] different
+duck: [(0,)]
+pg: [(1071,)]
+
+Processing numerology.sql/13
+[RESULT] different
+duck: [(0,)]
+pg: [(-2147483648,)]
+
+Processing numerology.sql/5
+[RESULT] different
+duck: [(0,)]
+pg: [(2147483647,)]
+
+Processing numerology.sql/14
+[RESULT] different
+duck: [(0,)]
+pg: [(-2147483649,)]
+
+Processing numerology.sql/22
+[RESULT] different
+duck: [(0,)]
+pg: [(Decimal('-9223372036854775809'),)]
+
+Processing numerology.sql/25
+[RESULT] different
+duck: [(0,)]
+pg: [(-9223372036854775808,)]
+
+Processing comments.sql/0
+[RESULT] same
+
+Processing comments.sql/1
+[RESULT] same
+
+Processing float8.sql/4
+duckdb: Catalog Error: Scalar Function with name float8send does not exist!
+Did you mean "flatten"?
+LINE 1: SELECT float8send('2.2250738585072014E-308'::f...
+               ^
+[RESULT] error, duck False, pg True
+
+Processing async.sql/0
+duckdb: Catalog Error: Scalar Function with name pg_notify does not exist!
+Did you mean "pi"?
+LINE 1: SELECT pg_notify('notify_async1','sample messa...
+               ^
+[RESULT] error, duck False, pg True
+
+Processing async.sql/6
+duckdb: Parser Error: syntax error at or near "NOTIFY"
+[RESULT] error, duck False, pg True
+
+Processing async.sql/1
+duckdb: Catalog Error: Scalar Function with name pg_notify does not exist!
+Did you mean "pi"?
+LINE 1: SELECT pg_notify('notify_async1','');
+               ^
+[RESULT] error, duck False, pg True
+
+Processing async.sql/2
+duckdb: Catalog Error: Scalar Function with name pg_notify does not exist!
+Did you mean "pi"?
+LINE 1: SELECT pg_notify('notify_async1',NULL);
+               ^
+[RESULT] error, duck False, pg True
+
+Processing vacuum_parallel.sql/0
+duckdb: Catalog Error: unrecognized configuration parameter "max_parallel_maintenance_workers"
+
+Did you mean: "max_memory"
+[RESULT] error, duck False, pg True
+
+Processing vacuum_parallel.sql/1
+duckdb: Catalog Error: unrecognized configuration parameter "max_parallel_maintenance_workers"
+
+Did you mean: "max_memory"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/20
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/18
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/27
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/9
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/0
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/11
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/7
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/29
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/16
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/6
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/28
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/17
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/1
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/10
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/19
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/26
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/8
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/21
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/31
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/30
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/24
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/23
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/4
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/15
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/3
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/12
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/2
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/13
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/5
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/14
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/22
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing partition_aggregate.sql/25
+duckdb: Parser Error: syntax error at or near "PARTITION"
+[RESULT] error, duck False, pg True
+
+Processing returning.sql/9
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing returning.sql/0
+duckdb: Invalid Input Error: Attempting to execute an unsuccessful or closed pending query result
+Error: Catalog Error: Type with name serial does not exist!
+Did you mean "real"?
+[RESULT] error, duck False, pg True
+
+Processing returning.sql/11
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing returning.sql/7
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing returning.sql/6
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing returning.sql/1
+duckdb: Invalid Input Error: Attempting to execute an unsuccessful or closed pending query result
+Error: Catalog Error: Type with name serial does not exist!
+Did you mean "real"?
+[RESULT] error, duck False, pg True
+
+Processing returning.sql/10
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing returning.sql/8
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing returning.sql/4
+duckdb: Invalid Input Error: Attempting to execute an unsuccessful or closed pending query result
+Error: Catalog Error: Type with name serial does not exist!
+Did you mean "real"?
+[RESULT] error, duck False, pg True
+
+Processing returning.sql/3
+duckdb: Invalid Input Error: Attempting to execute an unsuccessful or closed pending query result
+Error: Catalog Error: Type with name serial does not exist!
+Did you mean "real"?
+[RESULT] error, duck False, pg True
+
+Processing returning.sql/12
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing returning.sql/2
+duckdb: Invalid Input Error: Attempting to execute an unsuccessful or closed pending query result
+Error: Catalog Error: Type with name serial does not exist!
+Did you mean "real"?
+[RESULT] error, duck False, pg True
+
+Processing returning.sql/5
+duckdb: Parser Error: syntax error at or near "INHERITS"
+[RESULT] error, duck False, pg True
+
+Processing bitmapops.sql/0
+duckdb: Invalid Input Error: Attempting to execute an unsuccessful or closed pending query result
+Error: Binder Error: No function matches the given name and argument types '%(STRUCT(generate_series BIGINT), INTEGER_LITERAL)'. You might need to add explicit type casts.
+	Candidate functions:
+	%(TINYINT, TINYINT) -> TINYINT
+	%(SMALLINT, SMALLINT) -> SMALLINT
+	%(INTEGER, INTEGER) -> INTEGER
+	%(BIGINT, BIGINT) -> BIGINT
+	%(HUGEINT, HUGEINT) -> HUGEINT
+	%(FLOAT, FLOAT) -> FLOAT
+	%(DOUBLE, DOUBLE) -> DOUBLE
+	%(DECIMAL, DECIMAL) -> DECIMAL
+	%(UTINYINT, UTINYINT) -> UTINYINT
+	%(USMALLINT, USMALLINT) -> USMALLINT
+	%(UINTEGER, UINTEGER) -> UINTEGER
+	%(UBIGINT, UBIGINT) -> UBIGINT
+	%(UHUGEINT, UHUGEINT) -> UHUGEINT
+
+LINE 3: SELECT (r%53), (r%59), 'foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo'
+FROM generate_series(1,70000) r;
+CREATE INDEX i_bmtest_a ON bmscantest(a);
+CREATE INDEX i_bmtest_b ON bmscantest(b);
+set enable_indexscan=false;
+set enable_seqscan=false;
+set work_mem = 64;
+...
+                 ^
+[RESULT] error, duck False, pg True
+
+Processing bitmapops.sql/1
+duckdb: Invalid Input Error: Attempting to execute an unsuccessful or closed pending query result
+Error: Binder Error: No function matches the given name and argument types '%(STRUCT(generate_series BIGINT), INTEGER_LITERAL)'. You might need to add explicit type casts.
+	Candidate functions:
+	%(TINYINT, TINYINT) -> TINYINT
+	%(SMALLINT, SMALLINT) -> SMALLINT
+	%(INTEGER, INTEGER) -> INTEGER
+	%(BIGINT, BIGINT) -> BIGINT
+	%(HUGEINT, HUGEINT) -> HUGEINT
+	%(FLOAT, FLOAT) -> FLOAT
+	%(DOUBLE, DOUBLE) -> DOUBLE
+	%(DECIMAL, DECIMAL) -> DECIMAL
+	%(UTINYINT, UTINYINT) -> UTINYINT
+	%(USMALLINT, USMALLINT) -> USMALLINT
+	%(UINTEGER, UINTEGER) -> UINTEGER
+	%(UBIGINT, UBIGINT) -> UBIGINT
+	%(UHUGEINT, UHUGEINT) -> UHUGEINT
+
+LINE 3: SELECT (r%53), (r%59), 'foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo'
+FROM generate_series(1,70000) r;
+CREATE INDEX i_bmtest_a ON bmscantest(a);
+CREATE INDEX i_bmtest_b ON bmscantest(b);
+set enable_indexscan=false;
+set enable_seqscan=false;
+set work_mem = 64;
+...
+                 ^
+[RESULT] error, duck False, pg True
+
+Processing prepare.sql/0
+duckdb: Catalog Error: Table with name pg_prepared_statements does not exist!
+Did you mean "pg_am"?
+LINE 1: ...nt, parameter_types, result_types FROM pg_prepared_statements;
+                                                  ^
+[RESULT] error, duck False, pg True
+
+Processing prepare.sql/1
+duckdb: Catalog Error: Table with name pg_prepared_statements does not exist!
+Did you mean "pg_am"?
+LINE 1: ...nt, parameter_types, result_types FROM pg_prepared_statements;
+                                                  ^
+[RESULT] error, duck False, pg True
+
+Processing point.sql/20
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/18
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/9
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/0
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/11
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/7
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/16
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/6
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/17
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/1
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/10
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/19
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/8
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/21
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/23
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/4
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/15
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/3
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/12
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/2
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/13
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/5
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/14
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+
+Processing point.sql/22
+duckdb: Catalog Error: unrecognized configuration parameter "extra_float_digits"
+
+Did you mean: "threads"
+[RESULT] error, duck False, pg True
+Counter({'error': 531, 'different': 46, 'same': 31})

@@ -1,4 +1,6 @@
 import pathlib
+import shutil
+
 import duckdb
 
 ommit_set = {
@@ -52,7 +54,7 @@ class DuckTestCase:
             self.db_sql = "".join(f.readlines())
 
         # read query.sql
-        with open(self.test_case_dir / "query.sql", 'r') as f:
+        with open(self.test_case_dir / "test.sql", 'r') as f:
             # for line in f:
             #     self.query_sql.append(line.strip())
             self.query_sql = "".join(f.readlines())
@@ -73,12 +75,12 @@ class DuckTestCase:
         print("----query.sql----")
         # for line in self.query_sql:
         #     print(cursor.execute(line).fetchall())
-        print(cursor.execute(self.query_sql).fetchall())
+        res = cursor.execute(self.query_sql).fetchall()
+        print(res)
 
-        print("----result----")
-        # for line in self.result:
-        #     print(line)
-        print(self.result)
+        # save result
+        with open(self.test_case_dir / "result.txt", 'w') as f:
+            f.write(str(res) + '\n')
 
 
 def main():
@@ -114,6 +116,28 @@ def single_test():
         c.close()
 
 
+def clean_res():
+    suc_set = set()
+    with open('pass.txt', 'r') as f:
+        suc_set.update([line.strip() for line in f.readlines()])
+
+    target_dir = pathlib.Path('./duck_testcase_data')
+    if target_dir.exists():
+        shutil.rmtree(target_dir)
+    target_dir.mkdir()
+
+    cnt = 0
+    for suc in suc_set:
+        src = pathlib.Path(f'./testcase_data/{suc}')
+        target = pathlib.Path(f'./duck_testcase_data/{suc}')
+        if not target.parent.exists():
+            target.parent.mkdir(parents=True)
+        shutil.copytree(src, target)
+        cnt += 1
+    print(f"Copy {cnt} dirs")
+
+
 if __name__ == '__main__':
-    main()
+    # main()
     # single_test()
+    clean_res()

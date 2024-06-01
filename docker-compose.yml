@@ -1,0 +1,39 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  python:
+    build: .
+    container_name: xy-python-container
+    depends_on:
+      - postgres
+      - mysql
+      - clickhouse
+    volumes:
+      - ../:/sql_project
+    command: ["tail", "-f", "/dev/null"]
+
+  postgres:
+    image: postgres:latest
+    container_name: xy-pg-container
+    environment:
+      POSTGRES_PASSWORD: 123456
+    ports:
+      - "5432:5432"
+
+  mysql:
+    image: mysql:latest
+    container_name: xy-mysql-container
+    environment:
+      MYSQL_DATABASE: test
+      MYSQL_ROOT_PASSWORD: 123456
+    ports:
+      - "3306:3306"
+
+  clickhouse:
+    image: clickhouse/clickhouse-server:latest
+    container_name: xy-clickhouse-container
+    ports:
+      - "8123:8123"
+      - "19000:9000"
+

@@ -75,6 +75,8 @@ class DuckTestFile:
                                 continue
                             elif 'read_csv' in line or '.csv' in line or '__TEST_DIR__/' in line:
                                 return []
+                            elif 'BEGIN TRANSACTION' in line or 'COMMIT' in line or 'ROLLBACK' in line:
+                                return []
                             all_statement.append(line)
                 elif line.startswith("query"):
                     query_split = line.split(" ")
@@ -104,6 +106,8 @@ class DuckTestFile:
                             skip_result = False
                             break
                         elif 'read_csv' in line or '.csv' in line or '__TEST_DIR__/' in line:
+                            return []
+                        elif 'BEGIN TRANSACTION' in line or 'COMMIT' in line or 'ROLLBACK' in line:
                             return []
                         else:
                             duck_test_case.query_sql.append(line)
@@ -199,7 +203,7 @@ class DuckTestCase:
             for line in self.db_sql:
                 f.write(line + "\n")
         # query.sql
-        with open(self.test_case_directory / "query.sql", 'w') as f:
+        with open(self.test_case_directory / "test.sql", 'w') as f:
             for line in self.query_sql:
                 f.write(line + "\n")
         # result.txt
